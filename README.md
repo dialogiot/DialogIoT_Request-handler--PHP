@@ -3,7 +3,7 @@ Sample php code snippets to build apps on top of Dialog IoT platform
 
 This will handle the API calls and token management. You just have to make your desired API calls using this SDK
 
-##Configuration
+## Configuration
 * Make **config.json** and **lib/data.json** writable
 * Change config.json files properties based on your credential information Ex: username,password, X-secret
 
