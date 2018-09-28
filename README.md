@@ -1,19 +1,14 @@
 # DialogIoT_Request-handler--PHP
 Sample php code snippets to build apps on top of Dialog IoT platform
 
-
-
-#IdeaBiz PHP sample
-
-This will handle the API call. and also it handle to token. If need,it will refresh existing token automatically . So you only need to make API call via this SDK
+This will handle the API calls and token management. You just have to make your desired API calls using this SDK
 
 ##Configuration
 * Make **config.json** and **lib/data.json** writable
-* Change config.json files properties based on your credential information
-
+* Change config.json files properties based on your credential information Ex: username,password, X-secret
 
 ## Use
-Once config.json is configured, you can include `DialogIoTAPIHandler.php` to your code. then call `sendAPICall` method 
+Once config.json is updated, you may include `DialogIoTAPIHandler.php` to your php code and call `sendAPICall` method 
 
 For example
 
@@ -25,7 +20,7 @@ $out = $auth->sendAPICall($url,RequestMethod::POST,$body);
 
 ## Parameters
 ### URL
- complete URL of ideabiz api. Example for device management "https://iot.dialog.lk/developer/api/userdevicemgt/v1/devices"
+ Base URL of Dialog IoT api management iot.dialog.lk/developer/api/applicationmgt
 
 ### Method
  its an HTTP method. you can use `RequestMethod` Enum for that. this accepts string as well such as "POST and "GET". RequestMethod enum contains
