@@ -5,8 +5,12 @@ This will handle the API calls and token management. You just have to make your 
 Please refer https://portal.iot.ideamart.io/public/api_management for more info & available resources on API management
 
 ## Configuration
-* Make **config.json** and **lib/data.json** writable
-* Change config.json files properties based on your credential information Ex: username,password, X-secret
+* Download the repository and extract it's contents to your preferred destination.
+* Change config.json files properties based on your credential information Ex: username,password, X-secret.
+* Edit the file "test.php" according to your needs.
+* Upload the extracted files to your hosting space.
+* Make **config.json** and **lib/data.json** writable.
+
 
 ## Use
 Once config.json is updated, you may include `DialogIoTAPIHandler.php` to your php code and call `sendAPICall` method 
