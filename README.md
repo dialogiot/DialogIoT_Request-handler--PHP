@@ -85,7 +85,6 @@ body is retrieved as plain text. if you have an object, then you may use `json_d
  $result['error'] 
 ```
 
-
 #### status 
 The string value "ERROR" is given for the Errors
 
