@@ -1,0 +1,7 @@
+{
+    "accessToken": "",
+    "scope": "am_application_scope default",
+    "token_type": "Bearer",
+    "expire": 3600,
+    "xToken": ""
+}

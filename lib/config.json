@@ -1,0 +1,7 @@
+{
+    "auth_url": "https:\/\/iot.dialog.lk\/developer\/api\/applicationmgt\/authenticate",
+    "user_auth_url": "https:\/\/iot.dialog.lk\/developer\/api\/usermgt\/v1\/authenticate",
+    "auth_consumerSecret": "Z3l6aXMzVE5ZZlViVzE0ZVFmbjI4YnZXUmZZYTpmQ2p5Z2d3bkE4WGtmUVlVdlJ1blBqTXY0cmdh",
+    "auth_username": "sabareesan.easwaramoorthy@dialog.lk",
+    "auth_pw": "saba123#"
+}
