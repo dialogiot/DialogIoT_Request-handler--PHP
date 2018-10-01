@@ -1,7 +1,8 @@
 # DialogIoT_Request-handler--PHP
-Sample php code snippets to build apps on top of Dialog IoT platform
+Sample php code snippets to build apps to create,control & manage IoT devices on top of Dialog IoT platform
 
 This will handle the API calls and token management. You just have to make your desired API calls using this SDK
+Please refer https://portal.iot.ideamart.io/public/api_management for more info & available resources on API management
 
 ## Configuration
 * Make **config.json** and **lib/data.json** writable
