@@ -101,4 +101,7 @@ ConnectionException
 ### Example code
 Please refer `test.php`
 
+#### Special Credits
+- [ideaBiz Request handler by Malinda Prasad](https://github.com/ideabizlk/IdeaBiz-Request-Handler---PHP)
+
 
